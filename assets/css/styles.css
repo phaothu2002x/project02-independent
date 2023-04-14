@@ -442,6 +442,11 @@ a {
     transition: all ease 0.3s;
 }
 
+.course-list .course-item .thumb-wrap {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
 .course-list .course-item:hover .thumb {
     transform: scale(1.1);
     opacity: 1;
